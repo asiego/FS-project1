@@ -27,4 +27,4 @@ I find it easy to understand the logic behind working on projects like and how t
 
 Overall I feel like I learned some new tricks again and gained some confidence in planning, developing and delivering a working application. Overall I gained a deeper understanding of backend develompent and deployment. Even if this project was on the simpler side it will support my learning and build fundamental skills for upcoming projects and coursework.
 
-I feel like this project deserves 14/20 points in the rubric minus the points for being late. 
+I feel like this project deserves maybe 14/20 points in the rubric minus the points for late submission. 
