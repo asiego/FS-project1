@@ -8,11 +8,15 @@ Deployed at Render
 https://fs-project1.onrender.com/
 
 # Features
-Lightweight CRM for managing leads
-Express.js backend API
-Static frontend (index.html / app.js)
-Deployable for Render or local
-Easy to extended for future needs
+* Lightweight CRM for managing leads
+
+* Express.js backend API
+
+* Static frontend (index.html / app.js)
+
+* Deployable for Render or local
+
+* Easy to extended for future needs
 
 # Local setup to run 
 1. Clone the repository (git clone https://github.com/asiego/FS-project1)
