@@ -1,13 +1,34 @@
-label {
-    font-weight: bold;
-    display: block;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding-left: 25px;
-    padding-right: 50px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
-textarea {
-    margin-left: auto;
-    margin-right: 10px;
+main.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    align-items: center;
+    justify-content: center;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.card {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
 }

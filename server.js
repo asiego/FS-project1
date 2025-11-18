@@ -65,4 +65,4 @@ app.patch("/api/leads/:id", (req, res)=>{
 app.get ("/", (req, res) => res.sendFile(path.join(__dirname, "public", "index.html")));
 
 // start server
-app.listen(PORT, () => console.log(`Server on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server on https://fs-project1.onrender.com/`));
