@@ -15,7 +15,7 @@ Deployable for Render or local
 Easy to extended for future needs
 
 # Local setup to run 
-1. Clone the repository
+1. Clone the repository (git clone https://github.com/asiego/FS-project1)
 2. Install dependencies (npm install)
 3. Run the server (npm start)
 4. Dev mode (npm dev)
