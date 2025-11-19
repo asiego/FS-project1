@@ -20,8 +20,8 @@ https://fs-project1.onrender.com/
 
 # Local setup to run 
 1. Clone the repository (git clone https://github.com/asiego/FS-project1)
-2. Install dependencies (npm install)
-3. Run the server (npm start)
+2. Install dependencies (run npm init -y then npm install)
+3. Run the server (node server.js)
 4. Dev mode (npm dev)
 
 # Reflection
@@ -29,6 +29,6 @@ Working on this project was once again mostly a learning experience, going into 
 
 I find it easy to understand the logic on projects like these and how the front and backend come together but the hard part for me is the actual writing of the code and understanding it together with the syntax. The importance of file management and folder structures has also now been ingrained in my brain now after having some deployment problems with misplaced files.   
 
-Overall I feel like I learned some new tricks again and gained some confidence in planning, developing and delivering an application. Overall I gained a little deeper understanding of backend develompent and deployment and some motivation to do better than this on next projects. 
+Overall I feel like I learned some new tricks again and gained some confidence in planning, developing and delivering a working application. Overall I gained a little deeper understanding of backend develompent and deployment and some motivation to do better than this on next projects. 
 
-I feel like this project deserves maybe 10/20 points minus the points for late submission. The application in it's current state is not working, when I try to use the submit or apply buttons terminal shows ReferenceError: status is not defined which I could not fix before submission. Bugfixing will continue after this has been written.
+I feel like this project deserves maybe 14/20 points (minus the points for late submission) since the application is working as intended but is without any bells and whistles. 
