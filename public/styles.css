@@ -32,3 +32,8 @@ section.card {
     width: 100%;
     max-width: 800px;
 }
+
+form h2 {
+    width: 100%;
+    text-align: center;
+}
