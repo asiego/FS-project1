@@ -37,3 +37,8 @@ form h2 {
     width: 100%;
     text-align: center;
 }
+
+.filters button {
+    margin-left: 5px;
+    cursor: pointer;
+  }

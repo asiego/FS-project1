@@ -54,6 +54,12 @@ app.get("/api/leads", (req, res) => {
   res.json(list);
 });
 
+app.delete("/api/leads", (req, res) => {
+    writeLeads([]);
+    res.json({ message: "All leads cleared" });
+  });
+  
+
 // [C]reate 
 app.post("/api/leads", (req, res) => {
   const { name, email, company, source, notes } = req.body;

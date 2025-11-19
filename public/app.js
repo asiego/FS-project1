@@ -5,6 +5,15 @@ const statusSel = document.querySelector("#status");
 
 document.querySelector("#applyFilters").addEventListener("click", load);
 
+document.querySelector("#clearLeads").addEventListener("click", async ()=> {
+  if (!confirm("Clear all leads?")) return;
+
+  const res = await fetch("/api/leads", { method: "DELETE" });
+  const data = await res.json();
+  alert(data.message);
+  load();
+});
+
 form.addEventListener("submit", async (e)=>{
     e.preventDefault();
     const data = Object.fromEntries(new FormData(form).entries());
